@@ -13,9 +13,8 @@ import plotly.express as px
 
 from model import prediction
 
-external_stylesheets=["/assets/styles.css"]
 
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = dash.Dash(__name__)
 server = app.server
 
 #two divisions
